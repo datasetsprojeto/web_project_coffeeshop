@@ -10,7 +10,6 @@
       content="Projeto em HTML e CSS com roteiro fornecido pela TripleTen - [Display flex, posicionamentos e uso de videos]."
     />
     <meta name="keywords" content="HTML, CSS, Projeto de desenvolvimento Web" />
-    <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="shortcut icon" href="./favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com/" />
@@ -187,7 +186,44 @@
         </section>
       </main>
       <!---------------------------------------------FOOTER--------------------------------------------->
-      <footer id="footer" class="footer"></footer>
+      <footer id="footer" class="footer">
+        <div class="footer__content">
+          <div class="footer__column">
+            <img
+              src="./images/logo_coffeeshop_light.svg"
+              alt=""
+              class="footer__logo"
+            />
+          </div>
+          <div class="footer__circle"></div>
+          <div class="footer__column footer__column_content_about">
+            <h2 class="footer__social-heading">Mídia social</h2>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a href="#" class="footer__social-link">
+                  <img
+                    src="./images/facebook_white.svg"
+                    alt="Facebook icon"
+                    class="footer__social-icon"
+                  />
+                  Facebook
+                </a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__social-link">
+                  <img
+                    src="./images/instagram_white.svg"
+                    alt="Instagram icon"
+                    class="footer__social-icon"
+                  />
+                  Instagram
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="footer__copyright">© 2024 Renato Soares Pereira</p>
+      </footer>
     </div>
   </body>
 </html>
